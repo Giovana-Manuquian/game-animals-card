@@ -7,7 +7,7 @@ function HomeImg() {
     <div className="container">
       <img src={Fox} alt="Imagem" className="image" />
       <div className="content">
-        <h1 className="title">Olá, seja bem-vindo(a)!</h1>
+        <h1 className="title">Hi, Welcome!</h1>
         <p className="paragraph">
           Discover the <span>magic of animals</span>! Have fun, learn and create
           amazing memories with our children's card game. Explore the animal
