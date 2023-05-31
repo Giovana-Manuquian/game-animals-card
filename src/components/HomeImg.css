@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-image: url('../assets/Home.png');
+  }
+  
+  .image {
+    width: 40%;
+    margin-top: 50px;
+    animation: moveUpDown 2s infinite alternate;
+  }
+  
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .content {
+    margin-left: 10%; 
+    margin-bottom: 15%;
+  }
+  
+  .title {
+    font-size: 30px; 
+    font-family: cursive;
+    color: whitesmoke;
+  }
+
+  span {
+    color: #4b83fd;
+  }
+
+  .paragraph {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+
+  
